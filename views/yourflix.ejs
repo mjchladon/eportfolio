@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Custom Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/custom.css" />
+
+    <title>Michael Chladon</title>
+  </head>
+  <body>
+    <%- include('layout/navbar'); -%>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 circle-img-container">
+            <div
+              class="circle-img-small"
+              style="background-image: url('/img/projects/yourflix/cover.png');"
+            ></div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="emph-font">yourFlix</h1>
+            <h4 class="emph-font">Course Project</h4>
+            <h5 class="emph-font">January 2019 - May 2019</h5>
+            <p>
+              Developed an entertainment database using mySQL and existing IMDb
+              data
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="emph-font text-center">Skills Demonstrated</h2>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="emph-font text-center">Technology</h4>
+          <ul>
+            <li>mySQL</li>
+            <li>SQL Scripts</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4 class="emph-font text-center">Database Management</h4>
+          <ul>
+            <li>Database Schema Development</li>
+            <li>E/R Diagram Creation</li>
+            <li>Data Normalization</li>
+          </ul>
+        </div>
+      </div>
+      <h2 class="emph-font text-center">Overview</h2>
+      <hr />
+      <p>
+        yourflix was the final deliverable in a semester-long project in my
+        Database Design and Application course at JMU. Working with two other
+        students,
+        <strong>our goal was to develop an entertainment database using the IMDb
+        dataset.</strong>
+      </p>
+      <p>
+        Our first task was to
+        <strong>develop an improved schema adhering to data integrity and normal form
+        rules.</strong>
+        Next, we imported the data into the schema in a mySQL database by
+        writing SQL scripts. The final task was to develop a front-end
+        application that would allow users to query our database. This was done
+        in the form of a web application. I also
+        <strong>designed and implemented the extended functionality of allowing users
+        to create a "watch-list"</strong>
+        that they could add items from our database.
+      </p>
+      <p>
+        By completing this project, I gained valuable experience in
+        <strong>applying relational database design principles</strong>,
+        normalizing a large dataset with tables containing millions of rows, and
+        <strong>writing several SQL scripts.</strong>
+      </p>
+    </div>
+
+    <%- include('layout/footer'); -%>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

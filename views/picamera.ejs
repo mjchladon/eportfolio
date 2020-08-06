@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Custom Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/custom.css" />
+
+    <title>Michael Chladon</title>
+  </head>
+  <body>
+    <%- include('layout/navbar'); -%>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 circle-img-container">
+            <div
+              class="circle-img-small"
+              style="background-image: url('/img/projects/pi/cover.png');"
+            ></div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="emph-font">PiCam</h1>
+            <h4 class="emph-font">Personal Project</h4>
+            <h5 class="emph-font">Summer 2018</h5>
+            <p>
+              Independently developed a Raspberry Pi Security Camera application
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="emph-font text-center">Skills Demonstrated</h2>
+      <hr />
+      <div class="text-center">
+        <h4 class="emph-font">Technology</h4>
+        <ul>
+          <li>Python</li>
+          <li>Raspberry Pi Zero</li>
+          <li>Pi Camera Module</li>
+        </ul>
+      </div>
+
+      <h2 class="emph-font text-center">Overview</h2>
+      <hr />
+      <p>
+        The goal of this project was to gain experience working with a Raspberry
+        Pi. I chose the security camera topic because it has a useful
+        application and would allow me to
+        <strong>work with adding hardware to a base Raspberry Pi.</strong>
+      </p>
+      <p>
+        After learning how to connect the Pi Camera Module to the board, install
+        an OS and
+        <strong>write Python scripts to run on the Raspberry Pi Zero,</strong> I
+        created a
+        <strong>working security camera with a timed shutter in a compact and light
+        form.</strong>
+      </p>
+    </div>
+
+    <%- include('layout/footer'); -%>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

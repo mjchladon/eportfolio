@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Custom Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/custom.css" />
+
+    <title>Michael Chladon</title>
+  </head>
+  <body>
+    <%- include('layout/navbar'); -%>
+
+    <div class="jumbotron jumbotron-fluid" id="homepage-jumbo">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 circle-img-container">
+            <div class="circle-img-big"></div>
+          </div>
+          <div class="col-lg-6" id="tagline">
+            <h1 class="emph-font">Michael Chladon</h1>
+            <hr />
+            <p>Senior at James Madison University</p>
+            <p>Computer Science Major</p>
+            <p>Computer Information Systems Minor</p>
+            <p><strong>Email: mjchladon@gmail.com</strong></p>
+            <a href="/files/MichaelChladon_Resume_July2020.pdf" target="_blank"
+              ><button class="btn btn-primary">View Resume</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid emph-font text-center" id="skills-bar">
+      <h1>Skills</h1>
+      <h1>
+        <i class="devicon-java-plain-wordmark"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-c-plain"></i>
+        <i class="devicon-python-plain-wordmark"></i>
+        <i class="devicon-nodejs-plain-wordmark"></i>
+        <i class="devicon-express-original-wordmark"></i>
+        <i class="devicon-html5-plain-wordmark"></i>
+        <i class="devicon-css3-plain-wordmark"></i>
+        <i class="devicon-jquery-plain-wordmark"></i>
+        <i class="devicon-bootstrap-plain-wordmark"></i>
+        <i class="devicon-mysql-plain-wordmark"></i>
+        <i class="devicon-mongodb-plain-wordmark"></i>
+      </h1>
+    </div>
+
+    <div class="container text-center" id="project-container">
+      <h1 class="emph-font">Projects</h1>
+      <p>Hover over each project to learn more.</p>
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div
+            class="project-box"
+            style="background-image: url('/img/projects/songtrace/cover.png');"
+          >
+            <div class="overlay">
+              <h5>
+                Independently conceived and developed a web application designed
+                to document and visualize memories associated with songs
+              </h5>
+              <hr />
+              <h6>Skills:</h6>
+              <h6>
+                Node.js | API Integration | MongoDB | Data Visualization |
+                Bootstrap | jQuery
+              </h6>
+              <a href="/projects/songtrace"
+                ><button class="btn btn-primary">More</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div
+            class="project-box"
+            style="background-image: url('/img/projects/yourflix/cover.png');"
+          >
+            <div class="overlay">
+              <h5>
+                Developed an entertainment database using mySQL and existing
+                IMDb data
+              </h5>
+              <hr />
+              <h6>Skills:</h6>
+              <h6>mySQL | Data Normalization | Schema Design</h6>
+              <a href="/projects/yourflix"
+                ><button class="btn btn-primary">More</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="project-box"
+            style="background-image: url('/img/projects/bah/cover.png');"
+          >
+            <div class="overlay">
+              <h5>
+                Developed a blockchain-supported dashboard for exchanging and
+                tracking custom-built utility tokens
+              </h5>
+              <hr />
+              <h6>Skills:</h6>
+              <h6>
+                Node.js | Python | Tableau | Solidity | Ganache | Scrum |
+                Product Demo and Pitch
+              </h6>
+              <a href="/projects/boozallen"
+                ><button class="btn btn-primary">More</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div
+            class="project-box"
+            style="background-image: url('/img/projects/itpm/cover.png');"
+          >
+            <div class="overlay">
+              <h5>
+                Valuable experience in finding technical solutions in a
+                time-sensitive environment
+              </h5>
+              <hr />
+              <h6>Skills:</h6>
+              <h6>
+                Audio/Video Production | Social Media Management | One-on-One
+                Media Interviews
+              </h6>
+              <a href="/projects/itpm"
+                ><button class="btn btn-primary">More</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div
+            class="project-box"
+            style="
+              background-image: url('/img/projects/pathfinding/cover.png');
+            "
+          >
+            <div class="overlay">
+              <h5>
+                Semester-long research project in a small group with the goal of
+                analyzing the effects of parallelizing four existing algorithms
+              </h5>
+              <hr />
+              <h6>Skills:</h6>
+              <h6>Project Leadership | C | MPI | OpenMP | Technical Writing</h6>
+              <a href="/projects/pathfinding"
+                ><button class="btn btn-primary">More</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="project-box"
+            style="background-image: url('/img/projects/pi/cover.png');"
+          >
+            <div class="overlay">
+              <h5>
+                Personal project developing a security camera system with a
+                Raspberry Pi and the Pi Camera Module
+              </h5>
+              <hr />
+              <h6>Skills:</h6>
+              <h6>Python | Raspberry Pi</h6>
+              <a href="/projects/picamera"
+                ><button class="btn btn-primary">More</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('layout/footer-source'); -%>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/js/overlays.js"></script>
+  </body>
+</html>
