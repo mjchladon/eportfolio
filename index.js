@@ -1,12 +1,16 @@
 //Node Modules
 const express = require("express");
 const ejs = require("ejs");
+const enforce = require('express-sslify');
 
 //Create Express Object
 const app = new express();
 
 //Set up static files directory
 app.use(express.static("public"));
+
+//Use express-sslify module to redirect to https version of site
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 //Use ejs for views
 app.set("view engine", "ejs");
