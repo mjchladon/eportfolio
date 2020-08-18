@@ -11,9 +11,15 @@ app.use(express.static("public"));
 //Use ejs for views
 app.set("view engine", "ejs");
 
-app.listen(4000, () => {
-  console.log("App is listening...");
-});
+//have app listen on port specified by Heroku, default on port 4000
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 4000;
+}
+
+app.listen(port, ()=>{
+  console.log('App listening...')
+})
 
 //Main Router
 app.get("/", (req, res) => {
